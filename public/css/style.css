@@ -195,12 +195,13 @@ body {
   margin-right: 6px;
 }
 
-.acoes div:first-child .black {
+
+.acoes div:first-child ion-icon[name="heart-outline"]{
   color: black;
 }
 
-.acoes div:first-child .red {
-  color: red;
+.acoes div:first-child ion-icon[name="heart"] {
+  color: #fd1d1d;
 }
 
 .post .fundo .curtidas {
